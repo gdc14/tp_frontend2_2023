@@ -1,0 +1,38 @@
+/* Estilos generales de fuente para todo el documento */
+body {
+  font-family: Arial, sans-serif; /* Fuente predeterminada */
+  font-size: 16px; /* Tamaño de fuente base */
+  line-height: 1.5; /* Espaciado entre líneas */
+  color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilos para el cuerpo principal */
+.cuerpo {
+  display: flex; /* Utiliza Flexbox para el diseño principal */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 100%; /* Aprovecha el alto de la ventana para el contenido */
+  background-color: #f5f5f5; /* Color de fondo */
+}
+
+/* Estilos para el contenido principal */
+main {
+  background-color: #dae2f0; /* Color de fondo del contenido */
+  padding: 20px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde alrededor del contenido */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenido */
+  max-width: 800px; /* Ancho máximo del contenido */
+  width: 100%; /* Ancho completo del contenedor */
+}
+
+section {
+  background-color: rgb(219, 223, 190);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+section > img {
+  width: 150px;
+}

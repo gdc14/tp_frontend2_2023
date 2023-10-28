@@ -1,0 +1,48 @@
+/* Estilos generales para el pie de página */
+.footer {
+  background-color: #333; /* Color de fondo diferente al de la cabecera */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.footer h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Estilos para el contenedor de logo y menú */
+.logo-menu {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el logotipo */
+.logo-menu img {
+  max-width: 50px;
+}
+
+
+/* Estilos para la lista de navegación en el pie de página */
+.footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer nav li {
+  margin-right: 20px;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.footer nav a {
+  color: #fff; /* Color de enlaces diferente al de la cabecera */
+  text-decoration: none;
+}
+
+/* Estilos para los textos pequeños en el pie de página */
+.footer small {
+  font-size: 12px;
+}

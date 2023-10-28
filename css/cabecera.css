@@ -1,0 +1,73 @@
+/* Estilos generales para la cabecera */
+.cabecera {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  /*position: fixed;*/
+  border-radius: 25px ;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  
+}
+
+.cabecera h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Estilos para el contenedor de logo y menú */
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para el logotipo */
+.logo-menu img {
+  max-width: 100px;
+}
+
+/* Estilos para el icono de menú */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Estilos para la lista de navegación */
+.cabecera nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.cabecera nav li {
+  margin-right: 20px;
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .cabecera nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .cabecera nav ul.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Ajusta según sea necesario para evitar que se superponga con el contenido */
+    right: 0;
+    background-color: #333;
+  }
+
+  .cabecera nav li {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../css/cabecera.css";
+@import "../css/cuerpo.css";
+@import "../css/pie.css";
+
+
+/* Estilos generales de fuente para todo el documento */
+body {
+  font-family: 'Crimson Text', serif, sans-serif; /* Fuente predeterminada */
+  font-size: 16px; /* Tamaño de fuente base */
+  line-height: 1.5; /* Espaciado entre líneas */
+  color: #333; /* Color de texto predeterminado */
+  display: flexbox;
+}
+
+/* Estilos para el título principal */
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Fuente específica para títulos */
+  font-size: 32px;
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
